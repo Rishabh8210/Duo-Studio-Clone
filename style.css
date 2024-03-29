@@ -22,7 +22,7 @@ html, body{
     z-index: 999;
     transform-origin: center center;
     pointer-events: none;
-    transition: all ease-in-out 0.2s;
+    transition: all 0.2s linear;
     /* transition: width .2s ease-in-out,height .2s ease-in-out,opacity .2s ease-in-out,border-radius .2s ease-in-out,padding .2s ease-in-out; */
 }
 

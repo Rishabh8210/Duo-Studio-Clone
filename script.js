@@ -38,6 +38,14 @@ function locoMotive()
 }    
 locoMotive()
 
+
+const crsr = document.querySelector(".crsr");
+document.addEventListener("mousemove", function(dets){
+    crsr.style.left = dets.x-11+"px";
+    crsr.style.top = dets.y-11+"px";
+})
+
+
 const tl = gsap.timeline({
     scrollTrigger:{
         trigger:"#main-heading h1",
@@ -148,32 +156,6 @@ gsap.to("#page4",{
     }
 })
      
-var crsr = document.querySelector('.crsr'),
-    mouseX = 0,
-    mouseY = 0
-
-gsap.to({},0.016, {
-    repeat:-1,
-    onRepeat:function(){
-        gsap.set(crsr,{
-            css:{
-                left:mouseX-3,
-                top: mouseY-4
-            }
-        })
-    }
-})
-    
-window.addEventListener("mousemove", function(e){
-    mouseX = e.clientX
-    mouseY = e.clientY
-})
-// const crsr = document.querySelector(".crsr");
-// document.addEventListener("mousemove", function(dets){
-//     crsr.style.left = dets.x+"px";
-//     crsr.style.top = dets.y+"px";
-// })
-
 const navh4 = document.querySelectorAll('#nav h4');
 const navImg = document.querySelector('#nav img');
 
