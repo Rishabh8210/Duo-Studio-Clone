@@ -14,10 +14,5 @@ Clone the repository, open `index.html`, and enjoy the animations.
 ## Credits
 - Duo Studios
 
-## Demo
-[View Demo](#) *(Link will be provided once available)*
-
-## Feedback
-For feedback or issues, visit [YourGitHubUsername/AnimatedProject](https://github.com/YourGitHubUsername/AnimatedProject).
 
 Enjoy the animations! 🚀
